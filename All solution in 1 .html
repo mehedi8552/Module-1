@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        //1st problem:
+var market = prompt("Please enter Total amount:");
+
+
+    if (market < 50 ){
+        document.write("No discount is applied.")
+    }
+
+else if (market >= 50 && market <= 99){
+    Discount = 0.05*market;
+    document.write("Discount:"+ Discount.toFixed(2) +"<br>")
+    Discounted_amount =  market - Discount;
+    document.write("Discounted amount:"+ Discounted_amount.toFixed(2) +"<br>")
+    document.write("Total amount:"+ market)
+}else if(market >= 100 && market <= 199){
+    Discount = 0.10*market;
+    document.write("Discount:"+ Discount.toFixed(2) +"<br>")
+    Discounted_amount =  market - Discount;
+    document.write("Discounted amount:"+ Discounted_amount.toFixed(2) +"<br>")
+    document.write("Total amount:"+ market)
+}else if(market >= 200){
+    Discount = 0.15*market;
+    document.write("Discount:"+ Discount.toFixed(2) +"<br>")
+    Discounted_amount =  market - Discount;
+    document.write("Discounted amount:"+ Discounted_amount.toFixed(2) +"<br>")
+    document.write("Total amount:"+ market)
+}
+</script>
+
+<!-- <script>
+    
+    var array = [12,34,45,23,6,78,54,90];
+    // problem 2
+
+    function res (){
+        var result = array.filter((n) => n % 2 == 0)
+        document.write(result);
+    }
+    res();
+</script> -->
+<!-- <script>
+    // problem 3
+    function Tabb (n,i){
+       
+        for(var i=1;i<=10;i++){
+            console.log(n+"*"+i+"="+n*i+"<br>")
+        }
+    }
+    
+   var n = prompt("Enter a number:")
+   Tabb (n,1);
+</script>  -->
+
+<!-- <script>
+function calculateGrade(mark) {
+    if (mark >= 90 && mark <= 100) {
+      return "A";
+    } else if (mark >= 80 && mark < 89) {
+      return "B";
+    } else if (mark >= 70 && mark < 79) {
+      return "C";
+    } else if (mark >= 60 && mark < 69) {
+      return "D";
+    } else if (mark <= 59) {
+      return "F";
+    }
+  }
+  
+  // Example usage:
+  const userInput = prompt("Enter the student's score:");
+  const mark = parseFloat(userInput);
+  const grade = calculateGrade(mark);
+  document.write(`The student grade is: ${grade}`);
+  
+</script> -->
+</body>
+</html>
