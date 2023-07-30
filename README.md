@@ -1,6 +1,6 @@
 # Module-1
 
 dear,
-in this Module given 4 problem solution..
-check this and give your fidback
+this Module gives 4 problem solutions..
+check this and give your feedback
 thank you.
